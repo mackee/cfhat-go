@@ -1,0 +1,14 @@
+name = "cfhat-go"
+main = "./js/worker.mjs"
+compatibility_date = "2022-05-13"
+compatibility_flags = [
+    "streams_enable_constructors"
+]
+
+[build]
+command = "make build"
+
+[[ d1_databases ]]
+binding = "ChatDB"
+database_name = "cfhat-chatdb"
+database_id = "741292d0-3cd2-4de8-993f-c3aa36145f56"
